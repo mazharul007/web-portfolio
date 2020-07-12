@@ -1,3 +1,4 @@
+/* default css */
 body{
     font-family: 'Ubuntu Mono', monospace;
     margin:0px
@@ -30,17 +31,19 @@ section{
     float: left;
 }
 .half-width img{
-    width: 70%;
+    width: 100%;
 }
 
-
+/* intro area  */
 .intro-area{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
 }
 
-
-
+/* biography area */
+.biography{
+    margin-top: 50px;
+}
 .biography-area{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
@@ -49,7 +52,7 @@ section{
     width: 70%;
 }
 
-
+/* latest-work  area  */
 .latest-work-area h1{
     text-align: center;
 }
@@ -68,4 +71,33 @@ section{
     width: 70%;
 }
 
+/* client-feedback-area */
+.client-feedback-area{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.grey-highlight{
+    color: grey;
+}
+.client-content p{
+    text-align: center;
+}
+.contact{
+    color: white;
+    margin: 50px 700px;
+    background-color: #EC4E8D;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+
+/* footer */
+footer p{
+    text-align: center;
+}
 
