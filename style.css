@@ -13,7 +13,7 @@ p{
     line-height: 20px;
 }
 section{
-    height: 900px;
+    height: 700px;
 }
 .link-btn{
     text-decoration: none;
@@ -29,11 +29,43 @@ section{
     padding-left: 2%;
     float: left;
 }
+.half-width img{
+    width: 70%;
+}
+
+
 .intro-area{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
 }
-.dream-area{
+
+
+
+.biography-area{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
 }
+.biography-area img{
+    width: 70%;
+}
+
+
+.latest-work-area h1{
+    text-align: center;
+}
+.latest-work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.one-third-width{
+    width: 20%;
+    margin-left:80px;
+    padding-left: 5%;
+    float: left;
+    text-align: center;
+}
+.one-third-width img{
+    width: 70%;
+}
+
+
