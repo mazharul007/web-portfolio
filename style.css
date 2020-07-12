@@ -1,0 +1,39 @@
+body{
+    font-family: 'Ubuntu Mono', monospace;
+    margin:0px
+}
+h1{
+    font-size: 50px;
+}
+.content-highlight{
+    color:#EC4F8F;
+}
+p{
+    text-align: justify;
+    line-height: 20px;
+}
+section{
+    height: 900px;
+}
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#EC4F8F,deeppink);
+    padding:10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.half-width{
+    width: 40%;
+    margin-left: 4%;
+    padding-left: 2%;
+    float: left;
+}
+.intro-area{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+.dream-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
